@@ -2,7 +2,7 @@
 	<v-container fluid>
 		<app-card :fullBlock="true">
 			<v-breadcrumbs>
-				<h2 class="text-capitalize mb-0">{{$t(pageTitle)}}</h2>
+				<h2 class="text-capitalize mb-0" style="margin-left: 5%">{{$t(pageTitle)}}</h2>
 				<div class="spacer"></div>
 				<v-icon slot="divider">chevron_right</v-icon>
 				<v-breadcrumbs-item>Almanac 20/80</v-breadcrumbs-item>

@@ -110,6 +110,8 @@ const Pricing2 = () =>
 // custom pages
 const Sciences = () =>
     import ('Views/pages/Sciences');
+const ScienceEdit = () =>
+    import ('Views/pages/ScienceEdit');
 
 // users views
 const UserProfile = () =>
@@ -317,6 +319,15 @@ export default {
                 requiresAuth: true,
                 title: 'Список дисциплин', //'message.sciences',
                 breadcrumb: 'Pages / Sciences'
+            }
+        },
+        {
+            component: ScienceEdit,
+            path: '/mini/pages/science-edit',
+            meta: {
+                requiresAuth: true,
+                title: 'Редактирование дисциплины', //'message.sciences',
+                breadcrumb: 'Pages / ScienceEdit'
             }
         },
         {

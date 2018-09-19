@@ -20,7 +20,6 @@
 							</v-list>
 						</v-card>
 					</v-flex>
-					<v-btn round color="success" style="margin-right: auto; margin-left: auto" @click="newScienceHandle()">Создать новую</v-btn>
 				</v-layout>
 			</app-card>
 		</v-container>
@@ -60,17 +59,6 @@
 		},
 		editScienceHandle(id) {
 			window.location.assign(`${frontURL}sciences/${id}/edit`);
-		},
-		newScienceHandle() {
-			axios
-				.post(`${apiURL}sciences`, {})
-				.then(response => {
-					console.log(response);
-					this.editScienceHandle(response.data.id)
-				})
-				.catch(error => {
-					console.log(error);
-				});
 		}
   	}
 	};
