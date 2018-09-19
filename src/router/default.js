@@ -577,7 +577,7 @@ export default {
             }
         },
         {
-            path: 'default/pages/scienceEdit',
+            path: 'default/pages/sciences/:id/edit',
             component: ScienceEdit,
             meta: {
                 requiresAuth: true,

@@ -4,22 +4,7 @@
 		<v-container grid-list-xl fluid pt-0>
 			<app-card>
 				<v-layout row wrap>
-					<v-flex xs12>
-						<v-card class="elevation-5">
-							<v-list two-line>
-								<template v-for="item in info">
-									<v-list-tile avatar v-bind:key="item.id" @click="">
-									<v-list-tile-content>
-										<v-list-tile-title v-html="item.name" style="font-weight: bold; font-size: large"></v-list-tile-title>
-										<v-list-tile-sub-title v-html="item.desc"></v-list-tile-sub-title>
-									</v-list-tile-content>
-									<v-btn raised color="success" @click="editTreeHandle(item.id)">Древо</v-btn>
-									<v-btn raised color="warning" @click="editTreeHandle(item.id)">Редактировать</v-btn>
-									</v-list-tile>
-								</template>
-							</v-list>
-						</v-card>
-					</v-flex>
+					qqq
 				</v-layout>
 			</app-card>
 		</v-container>

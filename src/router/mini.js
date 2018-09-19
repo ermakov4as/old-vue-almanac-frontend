@@ -323,7 +323,7 @@ export default {
         },
         {
             component: ScienceEdit,
-            path: '/mini/pages/science-edit',
+            path: '/mini/pages/sciences/:id/edit',
             meta: {
                 requiresAuth: true,
                 title: 'Редактирование дисциплины', //'message.sciences',

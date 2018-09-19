@@ -43,7 +43,8 @@ export const menus = {
                 { title: 'message.pricing2', path: '/pages/pricing-2' },
                 { title: 'message.blank', path: '/pages/blank' },
                 // custom
-                { title: /*'message.sciences'*/ 'Sciences', path: '/pages/sciences' }
+                { title: /*'message.sciences'*/ 'Sciences', path: '/pages/sciences' },
+                { title: /*'message.sciences'*/ 'ScienceEdit', path: '/pages/sciences:id/edit' }
             ]
         },
         {
